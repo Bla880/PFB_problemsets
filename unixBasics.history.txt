@@ -1,0 +1,16 @@
+  253  vi oops
+  254  l
+  255  ls
+  256  git add 'oops'
+  257  git commit -m 'adding oops'
+  258  git push
+  259  git rm 'oops'
+  260  git commit -m 'removing oops'
+  261  git push
+  262  ls
+  263  vi oops2
+  264  ls
+  265  rm oops2
+  266  git add oops2
+  267  ls
+  268  cd ..
