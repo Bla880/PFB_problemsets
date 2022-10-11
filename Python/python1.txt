@@ -1,0 +1,339 @@
+    1  ifconfig -a
+    2  nslookup 143.48.7.80
+    3  ssh localhost
+    4  ls
+    5  clear
+    6  ls
+    7  clear
+    8  clear
+    9  clear
+   10  clear
+   11  ls
+   12  cd /bin/
+   13  ls
+   14  ls
+   15  clear
+   16  ls
+   17  ls -l
+   18  ls -lt
+   19  man ls
+   20  man ls
+   21  man ls
+   22  man ls > lsMANUAL.txt
+   23  ls
+   24  cat lsMANUAL.txt
+   25  cd ~/
+   26  ls
+   27  man ls > lsMANUAL.txt
+   28  ls
+   29  cat lsMANUAL.txt
+   30  clear
+   31  ls
+   32  cd 
+   33  ls
+   34  cd /
+   35  ls
+   36  ls -lth
+   37  cd bin
+   38  ls -lth
+   39  ls -lth | grep ls
+   40  ls
+   41  ls -lth
+   42  cd ..
+   43  l -lth
+   44  ls -lth
+   45  cd home
+   46  ls -lth
+   47  ls
+   48  cd ..
+   49  ls
+   50  cd 
+   51  ls -lth
+   52  pwd
+   53  clear
+   54  ls
+   55  pwd
+   56  ls
+   57  ls /
+   58  cd/bin
+   59  cd /bin/
+   60  ls
+   61  man ls
+   62  clear
+   63  ls
+   64  ls -lt | head
+   65  date ; sleep 2; date
+   66  man sleep
+   67  cd ..
+   68  ls
+   69  cd ~/
+   70  ls
+   71  clear
+   72  ls
+   73  curl -O https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/cuffdiff.txt
+   74  ls
+   75  man grep
+   76  head cuffdiff.txt
+   77  clear
+   78  ls
+   79  grep Chr7  cuffdiff.txt > fav_chr_cuffdiff.txt
+   80  ls
+   81  grep Chr9 cuffdiff.txt >> fav_chr_cuffdiff.txt
+   82  cat fav_chr_cuffdiff.txt
+   83  clear
+   84  ls
+   85  cat blablabla.txt 2> errors.txt
+   86  cat errors.txt
+   87  cat blablabla.txt > errors.txt
+   88  cat fav_chr_cuffdiff.txt blablabla.file
+   89  clear
+   90  cat fav_chr_cuffdiff.txt blablabla.file 1> out.txt 2> err.txt
+   91  cat out.txt err.txt
+   92  clear
+   93  cat fav_chr_cuffdiff.txt blablabla.file > out.txt 2> err.txt
+   94  cat out.txt err.txt
+   95  cat fav_chr_cuffdiff.txt blablabla.file &> all_out_err.txt
+   96  cat all_out_err.txt
+   97  clear
+   98  ls
+   99  pwd
+  100  cd ..
+  101  ls
+  102  cd `\n\n\n\n\nq\nq()
+  103  cd ~
+  104  ls
+  105  mkdir problemset
+  106  cd problemset
+  107  clear
+  108  ls
+  109  pwd
+  110  wget  https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/sequences.nt.fa
+  111  wc  --lines sequences.nt.fa
+  112  wc -l sequences.nt.fa
+  113  wc -c sequences.nt.fa
+  114  man head
+  115  head -3 sequences.nt.fa
+  116  tail -3 sequences.nt.fa
+  117  mv sequences.nt.fa cancer_genes.fasta
+  118  ls
+  119  grep '>' cancer_genes.fasta 
+  120  cat cancer_genes.fasta
+  121  clear
+  122  grep '>' cancer_genes.fasta 
+  123  wget https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/cuffdiff.txt
+  124  ls
+  125  clear
+  126  ls
+  127  head -5 cuffdiff.txt
+  128  man sort
+  129  man sort
+  130  sort -k 10 cuffdiff.txt
+  131  sort -k 10 cuffdiff.txt | head 
+  132  sort -k 10 -n cuffdiff.txt | head 
+  133  sort -k 10 -n -r cuffdiff.txt | head 
+  134  sort -k 10 -n -r cuffdiff.txt | cut -1 
+  135  sort -k 10 -n -r cuffdiff.txt | cut -c 1 
+  136  man cut
+  137  sort -k 10 -n -r cuffdiff.txt | cut -f 1 
+  138  sort -k 10 -n -r cuffdiff.txt | cut -f 1,10
+  139  sort -k 10 -n cuffdiff.txt
+  140  sort -k 10 -n cuffdiff.txt | head -3
+  141  sort -k 10 -n cuffdiff.txt | head -3
+  142  sort -k 10 -n -r cuffdiff.txt > sorted.cuffdiff.out
+  143  clear
+  144  ls
+  145  head -100 sorted.cuffdiff.out > top100.sorted.cuffdiff.out 
+  146  ls
+  147  sort -k 3 top100.sorted.cuffdiff.out | unique | cut -f 1
+  148  sort -k 3 top100.sorted.cuffdiff.out | uniq | cut -f 1
+  149  sort -k 3 top100.sorted.cuffdiff.out | uniq | cut -f 1 > differentially.expressed.genes.txt
+  150  clear
+  151  ks
+  152  ls
+  153  more differentially.expressed.genes.txt
+  154  clear
+  155  ls
+  156  sort -k 3 top100.sorted.cuffdiff.out | uniq | cut -f 1 > differentially.expressed.genes.txt
+  157  ls
+  158  cd `
+  159  clear
+  160  ls
+  161  cd ~
+  162  ls
+  163  mkdir PFB_problemset
+  164  ls
+  165  cd PFB_problemset
+  166  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/Bla880/PFB_problemsets.git\ngit push -u origin main
+  167  cd ..
+  168  ls
+  169  rmkdir PFB_problemset 
+  170  rmdir PFB_problemset 
+  171  rm -d PFB_problemset 
+  172  rm -r PFB_problemset 
+  173  clear
+  174  ls
+  175  rm PFB_problemset
+  176  rm -d PFB_problemset
+  177  rm -r PFB_problemset
+  178  mv PFB_problemset PFB_problemsets
+  179  ls
+  180  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:Bla880/PFB_problemsets.git\ngit push -u origin main
+  181  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:Bla880/PFB_problemsets.git\ngit push -u origin main
+  182  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/Bla880/PFB_problemsets.git\ngit push -u origin main
+  183  git config --global --edit
+  184  git commit --amend --reset-author
+  185  git config --global --edit
+  186  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:Bla880/PFB_problemsets.git\ngit push -u origin main
+  187  git config --global user.name "Your Name"
+  188  git config --global user.name "Bla880"
+  189  git config --global user.email brianda.lopez2@gmail.com
+  190    git commit --amend --reset-author
+  191  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:Bla880/PFB_problemsets.git\ngit push -u origin main
+  192  cd PFB_problemsets
+  193  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:Bla880/PFB_problemsets.git\ngit push -u origin main
+  194  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:Bla880/PFB_problemsets.git\ngit push -u origin main
+  195  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/Bla880/PFB_problemsets.git\ngit push -u origin main
+  196  $ ssh-keygen -t ed25519 -C "your_email@example.com"
+  197  ssh-keygen -t ed25519 -C "brianda.lopez2@gmail.com"
+  198  eval "$(ssh-agent -s)"
+  199  open ~/.ssh/config
+  200  touch ~/.ssh/config
+  201  vi ~/.ssh/config
+  202  eval "$(ssh-agent -s)"
+  203  open ~/.ssh/config
+  204  cat ~/.ssh/
+  205  cat ~/.ssh/id_ed25519.pub
+  206  cat ~/.ssh/
+  207  ls
+  208  git status
+  209  echo "# PFB_problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:Bla880/PFB_problemsets.git\ngit push -u origin main
+  210  vi README.md
+  211  git add README.md
+  212  git commit
+  213  git commit
+  214  git push
+  215  mkdir files
+  216  ls
+  217  ls
+  218  cd ..
+  219  ls
+  220  pwd
+  221  ls
+  222  cd problemset
+  223  ls
+  224  pwd
+  225  cd ..
+  226  ls
+  227  cd PFB_problemsets
+  228  cp ~/Users/student/problemset/cancer_genes.fasta cancer_genes.fasta
+  229  ls
+  230  ls
+  231  cd files
+  232  cp ~/problemset/cancer_genes.fasta cancer_genes.fasta
+  233  ls
+  234  cd ..
+  235  ls
+  236  git add files/cancer_genes.fasta
+  237  git commit -m 'adding files/cancer_genes.fasta'
+  238  git push
+  239  cd files
+  240  vi mysequences.txt
+  241  git add mysequences.txt
+  242  git commit -m 'adding mysequences.txt'
+  243  git push
+  244  ls
+  245  mkdir fastas
+  246  cp cancer_genes.fasta fastas/cancer_genes.fasta
+  247  ls fastas/
+  248  rm cancer_genes.fasta
+  249  ls
+  250  git add 'fastas/cancer_genes.fasta'
+  251  git commit -m 'adding fastas/cancer_genes.fasta'
+  252  git push
+  253  vi oops
+  254  l
+  255  ls
+  256  git add 'oops'
+  257  git commit -m 'adding oops'
+  258  git push
+  259  git rm 'oops'
+  260  git commit -m 'removing oops'
+  261  git push
+  262  ls
+  263  vi oops2
+  264  ls
+  265  rm oops2
+  266  git add oops2
+  267  ls
+  268  cd ..
+  269  history > unixBasics.history.txt
+  270  ls
+  271  vi unixBasics.history.txt
+  272  history
+  273  cd files
+  274  history
+  275  git status
+  276  cd ..
+  277  git add 'PFB_problemsets/files/'
+  278  git add 'PFB_problemsets/files/.'
+  279  ls
+  280  git add '/files/.'
+  281  pwd
+  282  git add '~/PFB_problemsets/files/.'
+  283  git add '~/PFB_problemsets/files/'
+  284  clear
+  285  ls
+  286  git add 'unixBasics.history.txt'
+  287  git commit -m 'adding unixBasics.history.txt'
+  288  git push
+  289  printenv
+  290  history 1
+  291  history 1 > unixBasics.history.txt
+  292  ls
+  293  git add 'unixBasics.history.txt'
+  294  git commit -m 'adding unixBasics.history.txt'
+  295  git push
+  296  man ls
+  297  python3 print 'Hello New York'
+  298  python3
+  299  ls
+  300  ls PFB_problemsets
+  301  cd PFB_problemsets
+  302  mkdir Python
+  303  cd Python
+  304  vi Python_1.py
+  305  mv Python_1.py my_name.py
+  306  ls
+  307  chmod +x my_name.py
+  308  ./my_name.py
+  309  git add 'my_name.py'
+  310  git commit -m 'adding my_name'
+  311  vi my_name.py
+  312  ./my_name.py
+  313  vi my_name.py
+  314  ./my_name.py
+  315  vi my_name.py
+  316  ./my_name.py
+  317  vi my_name.py
+  318  cp my_name_sys.py
+  319  cp my_name.py my_name_sys.py
+  320  vi my_name_sys.py
+  321  sys.argv
+  322  python3
+  323  my_name_sys.py Brianda Baby blue Dancing Axolotl
+  324  vi my_name_sys.py
+  325  ./my_name_sys.py Brianda Blue Dancing Axolotl
+  326  vi my_name_sys.py
+  327  ./my_name_sys.py Brianda Blue Dancing Axolotl
+  328  vi my_name.py
+  329  vi my_name_sys.py
+  330  cd ..
+  331  ls
+  332  git add /Python
+  333  pwd
+  334  git add ~/PFB_problemsets/Python
+  335  git commit -m 'Adding ~/PFB_problemsets/Python'
+  336  git push
+  337  cd Python
+  338  ls
+  339  history 1
