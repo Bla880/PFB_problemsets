@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+dna = 'GATGGGATTggggttttccccTCCCATGTGCTCAAGACTGGCGCTaaaaGttttGAGCTTCTCaaaaGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCggggACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGccccCTCTGAGTCAGGAAACAttttCAGACCTATGGAAACTACTTCCTGaaaaCAACGTTCTGTccccCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTccccGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTccccCCGTGGccccTGCACCAGCAGCTCCTACACCGGCGGccccTGCACCAGccccCTCCTGGccccTGTCATCTTCTGTCCCTTCCCAGaaaaCCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTccccTGCCCTCAACAAGATGttttGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACAccccCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGccccCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGccccTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACttttCG'
+#A counts
+print('"a" count is',dna.count('a'))
+print('"A" count is',dna.count('A'))
+A_combined = dna.count('a')+dna.count('A')
+print('"A" total count',A_combined)
+#T counts
+print('"t" count is',dna.count('t'))
+print('"T" count is',dna.count('T'))
+T_combined = dna.count('t')+dna.count('T')
+print('"T" total count',T_combined)
+#C counts
+print('"c" count is',dna.count('c'))
+print('"C" count is',dna.count('C'))
+C_combined = dna.count('c')+dna.count('C')
+print('"C" total count',C_combined)
+#G counts
+print('"g" count is',dna.count('g'))
+print('"G" count is',dna.count('G'))
+G_combined = dna.count('g')+dna.count('G')
+print('"G" total count',G_combined)
+
