@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import sys
-count = 10
+count = 50
 if count < 0:
   print ('negative')
 if count > 0:
