@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
 #while loop
-count = 1
-while count < 101:
-  print('count:',count)
-  count += 1
-print('Done')
+def factorial(n):
+    fact = 1
+    for num in range(2, n + 1):
+        fact *= num
+    return fact
 
+print (factorial(1000))
 
 

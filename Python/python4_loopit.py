@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 
-#while loop
-def factorial(n):
-    fact = 1
-    for num in range(2, n + 1):
-        fact *= num
-    return fact
-
-print (factorial(1000))
-
-
+number = [101,2,15,22,95,33,2,27,72,15,52]
+numbers = sorted(number)
+number_it = iter(numbers)
+for number in number_it:
+  if number %2 == 0:
+   print(number)

@@ -6,7 +6,7 @@ print('The DNAseq lenght is',len(dna))
 sub_dna = dna[99:200]
 print('DNAseq from nucletide #100-200',sub_dna)
 sub_dnaUP = sub_dna.upper()
-print(sub_dnaUP)
+print('DNAseq/UpperCase:',sub_dnaUP)
 Gcount = sub_dnaUP.count('G')
 print('the G count of DNAseq is',Gcount) 
 
