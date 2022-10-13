@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+seqs = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+
+
+
